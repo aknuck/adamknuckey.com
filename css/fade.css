@@ -1,0 +1,243 @@
+.first {
+	margin-top: 50px;
+	margin-left: -7em;
+	color: #FFFFFF;
+	font-size: 80px;
+	text-align: center;
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-ms-animation: fadein 3s;
+	animation: fadein 3s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.last {
+	margin-top: -40px;
+	color: #FFFFFF;
+	font-size: 175px;
+	text-align: center;
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-ms-animation: fadein 3s;
+	animation: fadein 3s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.pronounce {
+	/*margin-top: px;*/
+	color: #A3C6D1;
+	font-size: 27px;
+	text-align: center;
+	margin-left: 16em;
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-ms-animation: fadein 3s;
+	animation: fadein 3s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.profession {
+	margin-top: 20px;
+	opacity: 0;
+	color: #FFFFFF;
+	font-size: 40px;
+	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2.5s; /* Firefox < 16 */
+	-ms-animation: fadein 2.5s; /*Internet Explorer */
+	animation: fadein 2.5s;
+	-webkit-animation-delay: .75s;
+	-moz-animation-delay: .75s;
+	-ms-animation-delay: .75s;
+	animation-delay: .75s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.work {
+	opacity: 0;
+	color: #FFFFFF;
+	font-size: 35px;
+	-webkit-animation: fadein 2.0s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2.0s; /* Firefox < 16 */
+	-ms-animation: fadein 2.0s; /*Internet Explorer */
+	animation: fadein 2.0s;
+	-webkit-animation-delay: 1.25s;
+	-moz-animation-delay: 1.25s;
+	-ms-animation-delay: 1.25s;
+	animation-delay: 1.25s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.workplace {
+	opacity: 0;
+	color: #FFFFFF;
+	font-size: 35px;
+	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1.5s; /* Firefox < 16 */
+	-ms-animation: fadein 1.5s; /*Internet Explorer */
+	animation: fadein 1.5s;
+	-webkit-animation-delay: 1.75s;
+	-moz-animation-delay: 1.75s;
+	-ms-animation-delay: 1.75s;
+	animation-delay: 1.75s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.enter_btn {
+	padding-top: 70px;
+	opacity: 0;
+	font-size: 35px;
+	-webkit-animation: fadein 1.0s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1.0s; /* Firefox < 16 */
+	-ms-animation: fadein 1.0s; /*Internet Explorer */
+	animation: fadein 1.0s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-ms-animation-delay: 2s;
+	animation-delay: 2s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.return_btn {
+	padding-top: 30px;
+	/*font-size: 25px;*/
+	color: #2196f3;
+}
+
+.btn, .btn2 {
+	position: relative;
+	padding: 10px 40px;
+	border: 0px none;
+	cursor: pointer;
+	border-radius: 2px;
+	text-transform: uppercase;
+	-webkit-transition: -webkit-box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+	-moz-transition: -moz-box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+	transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+	background-color: #ff5252;
+	border-color: #CCC;
+	color: #FFF;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover, .btn2:hover {
+	transition: all 0.3s ease-in-out 0s;
+	background-color: #f44336;
+	/*#ff5252*/
+}
+
+.btn:active, .btn2:active {
+	box-shadow: 0px 0px 0px #ffffff;
+}
+
+.btn {
+	font-size: 25px;
+}
+
+.btn2 {
+	font-size: 15px;
+}
+
+html {
+	font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+
+.contained .group {
+	-webkit-animation: fade 1.5s; 
+	-moz-animation: fade 1.5s; 
+	-ms-animation: fade 1.5s; 
+	animation: fade 1.5s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+0% {
+transform:translateY(0px);opacity: 0;
+}
+100% {
+transform:translateY(-50px);opacity: 1;
+}
+}
+
+@-moz-keyframes
+fadein {0% {
+transform:translateY(0px);opacity:0;
+}
+100% {
+transform:translateY(-50px);opacity:1;
+}
+}
+
+@-webkit-keyframes
+fadein {0% {
+transform:translateY(0px);opacity: 0;
+}
+100%{
+transform:translateY(-50px);opacity: 1;
+}
+}
+
+@-ms-keyframes
+fadein {0% {
+transform:translateY(0px);opacity: 0;
+}
+100%{
+transform:translateY(-50px);opacity: 1;
+}
+}
+
+@keyframes fade {
+0% {opacity: 0;
+}
+100% {
+opacity:1;
+}
+}
+
+@-moz-keyframes
+fade {0% {
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+
+@-webkit-keyframes
+fade {0% {
+opacity: 0;
+}
+100%{
+opacity: 1;
+}
+}
+
+@-ms-keyframes
+fade {0% {
+opacity: 0;
+}
+100%{
+opacity: 1;
+}
+}
+
